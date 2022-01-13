@@ -21,6 +21,7 @@ if (${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 endif()
 
 set(CMAKE_FIND_FRAMEWORK LAST)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
 
 # ==============================================================================
 # OpenMVG build options
